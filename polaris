@@ -1,0 +1,754 @@
+<style>
+#WebPartWPQ3{
+           background: url("http://internal.polarisind.com/hr/Safe/mont/Ambiental/polaris-rzr-4.jpg") ;
+
+}
+#contenedor{ 
+             background-color: #000;
+             width: 990px;
+             height: 1150px;
+             margin: 0 auto;
+             border: 2px solid #000;
+}
+#slider{ 
+           width: 990px;
+           height: 400px;
+           margin-top: 10px;
+}
+
+#izquierda{
+           float:left;
+           width: 320px;
+           height: 520px;
+           margin-top: 10px;
+           margin-left: 5px;
+           margin-right: 10px;
+           
+}
+
+
+#central { 
+           float:left;
+           width: 320px;
+           height: 520px;
+           margin-top: 10px;
+           margin-right: 10px
+           
+}
+#derecha{
+           float:left;
+           width: 320px;
+           height: 520px;
+           margin-top: 10px;
+           margin-right: 5px
+
+}
+#pie{
+           float:left;
+           width: 980px;
+           height: 110px;
+           margin-top: 10px;
+           margin-left: 5px;
+           margin-right: 5px;
+}
+#sitios { 
+          float: right; margin: 10px;
+}
+#sitios a img { 
+          border: 0px; width:150px; height:70px;
+}
+#suger{ 
+          float: left; margin: 10px;
+}
+#suger img { 
+          margin-left: 80px;border: 0px; width:40px; height:40px;
+}
+
+
+
+                                          /*lado izquierdo*/
+#bo { background-color: none;
+}
+#me { text-align: center;
+  font-size: 14px;
+  width: 320px;
+  margin-left: -40px;
+}
+#me ul { list-style-type: none;
+}
+#me ul li.nivel1 { 
+  width: 320px;
+  height: 120px;
+  margin-bottom: 5px;
+}
+#me ul li a {display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1d508f; 
+  border-top: 1px solid #1d508f;
+  padding: 8px;
+  position: relative;
+}
+#me ul li:hover {position: relative;
+  background-color: #1d508f;
+  color: #fff;
+}
+#me ul li a:hover, #me ul li:hover a.nivel1 {
+  background-color: #1d508f;
+  color: #fff;
+  position: relative;
+}
+#me ul li a.nivel1 {display: block!important;
+  display: none;
+  position: relative;
+}
+#me ul li span.ehs{ border-top: solid 2px blue; 
+  border-right: solid 2px blue;
+  border-bottom: solid 2px blue;
+  padding: 0px 5px 0px 130px; 
+  color: blue;
+  background-color: white;font-weight: bold; 
+}
+#me ul li span.se{border: solid 2px blue; 
+  padding: 0px 5px 0px 117px;
+  color: blue;
+  background-color: white;font-weight: bold; 
+}
+#me ul li span.sa{border: solid 2px blue;
+  padding: 0px 5px 0px 159px;color: red;
+  background-color: white;font-weight: bold; 
+}
+#me ul li span.ma{border: solid 2px blue;
+  padding: 0px 5px 0px 68px;
+  color: green;
+  background-color: white;
+  font-weight: bold; 
+}
+#me ul li ul {display: none;
+}
+#me ul li a:hover ul, #me ul li:hover ul {
+  display: block;
+  position: absolute;
+  left: 280px;
+  top:-1px!important;
+  top: -31px;
+}
+#me ul li ul li a {width: 160px;
+  background-color: #99ccff;
+  color: #000;
+}
+#me ul li ul li a:hover {position: relative;
+  background-color: #66ccff;
+  color: #fff;
+}
+                                                     /*grafica*/
+
+
+#menu { 
+text-align: center;
+font-size: 12px;
+width: 300px;
+margin: 10px auto;
+position: relative;
+}
+#ima { width: 320px; height: 140px;
+}
+#menu {  text-align: center;
+font-size: 8pt;
+width: 300px;
+margin: 10px auto;
+}
+#menu ul { list-style-type: none;}
+#menu ul li.nivel1 { float: left;
+width: 80px;
+margin-right: 2px;
+}
+#menu ul li a {display: block;
+text-decoration: none;
+color: #fff;
+background-color: #1669E6;
+border: solid 1px #fff;
+padding: 8px;
+position: relative;
+}
+#menu ul li:hover {position: relative;
+}
+#menu ul li a:hover, #menu ul li:hover a.nivel1 {background-color: #003399;
+color: #fff;
+position: relative;
+}
+#menu ul li a.nivel1 {display: block!important;display: none;
+position: relative;
+}
+#menu ul li ul {display: none;
+}
+#menu ul li a:hover ul, #menu ul li:hover ul {display: block;
+position: absolute;left: 0px;
+}
+#menu ul li ul li a {width: 80px;
+padding: 6px 0px 8px 0px;
+border-top-color: #000;
+}
+#menu ul li ul li a:hover {border-top-color: blue;
+position: relative;
+}
+
+                                     /*mision vision y politica*/
+  
+#politicas{
+background: url("http://internal.polarisind.com/hr/Safe/mont/Ambiental/hacia%20donde%20vamos.jpg") no-repeat center lightgray;
+}
+#menu1 {  
+  text-align: center;
+  left: -10px;
+  font-size: 12px;
+  width: 310px;
+  margin: 20px auto;
+  position: relative;
+
+
+}
+#menu1 ul { list-style-type: none;}
+
+#menu1 ul li.nivel1 { float: left;
+width: 90px;
+margin: 0px;
+position: relative;
+}
+#menu1 ul li { float: left;}
+
+#menu1 ul li a {display: table-header-group;
+text-decoration: none;
+color: #000;
+background-color: #1d508f;
+border: solid 1px #fff;
+padding: 8px;
+position: relative;
+opacity: 0.8;
+filter: alpha(opacity=80);
+}
+#menu1 ul li a:hover, #menu1 ul li:hover a.nivel1 {background-color: #1669E6;
+color: #000;
+position: relative;
+
+}
+#menu1 ul li a.nivel1 {display: block!important;display: none;
+}
+#menu1 ul li ul {display: none;
+}
+#menu1 ul li a:hover ul, #menu1 ul li:hover ul {display: block;
+position: absolute;0px;
+}
+#menu1 ul li ul li a {width: 80px;
+padding: 6px 0px 8px 0px;
+border: none;
+background-color: #99ccff;
+
+}
+#menu1 ul li ul li a:hover {
+position: relative;
+text-decoration: none;
+border-bottom: none;
+}
+ul.politica{left: -75px;}
+ul.mision{left: -165px;}
+ul.vision{left: -255px;}
+
+                                                /*organigrama*/
+#orga {
+ text-align: center;
+left: -10px;
+font-size: 12px;
+width: 300px;
+margin: 2px auto;
+position: relative;
+
+}
+#orga orgCompl {
+text-align: center;
+font-size: 20px;
+width: 300px;
+
+}
+#orga ul { list-style-type: none;}
+ 
+#orga ul li.nivel1 { float: left;
+width: 60px;
+position: relative;
+}
+#orga ul li { float: left; width: 320px;}
+
+#orga ul li a {display: table-header-group;
+text-decoration: none;
+color: #fff;
+background-color: #1d508f;
+border: solid 1px #3399ff;
+padding: 1px;
+position: relative;
+
+}
+#orga ul li a:hover, #orga ul li:hover a.nivel1 {background-color: #3399ff;
+color: #000;
+position: relative;
+
+}
+#orga ul li a.nivel1 {display: block!important;display: none;
+}
+#orga ul li img {
+width:50px;
+height:100px;
+border: 2px solid #003399;
+}
+#orga ul li ul {display:none;
+}
+#orga ul li a:hover ul, #orga ul li:hover ul {display: block;
+position: absolute;0px;
+}
+
+#orga ul li ul li a {width: 160px;
+padding: 6px 0px 8px 0px;
+border: none;
+background-color: #3399ff;
+}
+
+#orga ul li ul li a:hover {
+position: relative;
+text-decoration: none;
+border-bottom: none;
+}
+
+ul.uno {left: -80px;}
+ul.dos {left: -140px;}
+ul.tres {left: -200px;}
+ul.cuatro{left: -260px;}
+
+</style>
+
+<div id=contenedor>
+
+
+ <div id="cabezal" style="filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#004B80', startColorstr='#6693B3', gradientType='0');">
+
+<a href="http://internal.polarisind.com/hr/Safe/mont/SiteAssets/MonterreyEHS.aspx" title="Pagina principal">
+<img src="http://internal.polarisind.com/hr/Safe/mont/Ambiental/polaris_logo.png" border="0">
+</a>
+
+ </div>
+
+ <div id="slider">
+<style>
+.slide{
+    
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    border-radius: .5em;
+    position: relative;
+}
+ .slide img{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+}
+ 
+.slide .img2, .slide .img3 {
+    display: none;
+}
+
+figure{
+    margin: 0;
+}
+</style>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	
+<script>
+
+//intervalo tiempo cambio img slide, 5 segundos, se llama a la función "avanzaSlide()"
+setInterval('avanzaSlide()',4500);
+ 
+//array con las clases para las diferentes imagenes
+var arrayImagenes = new Array(".img1",".img2",".img3");
+ 
+//variable que nos permitirá saber qué imagen se está mostrando
+var contador = 0;
+ 
+//hace un efecto fadeIn para mostrar una imagen
+function mostrar(img){
+	$(img).ready(function(){				
+  		$(arrayImagenes[contador]).fadeIn(1500);		
+	});
+}
+ 
+//hace un efecto fadeOut para ocultar una imagen
+function ocultar(img){
+	$(img).ready(function(){				
+  		$(arrayImagenes[contador]).fadeOut(1500);		
+	});
+}
+ 
+//función principal
+function avanzaSlide(){
+        //se oculta la imagen actual
+	ocultar(arrayImagenes[contador]);
+        //aumentamos el contador en una unidad
+	contador = (contador + 1) % 3;
+        //mostramos la nueva imagen
+	mostrar(arrayImagenes[contador]);
+}
+
+</script>
+
+	<div class="slide">
+	      <figure>
+	         <img class="img1" alt="alt img1" src="http://internal.polarisind.com/hr/Safe/mont/Ambiental/oie_png%20(8).png" />
+	          <img class="img2" alt="alt img 2" src="http://internal.polarisind.com/hr/Safe/mont/Ambiental/oie_png%20(9).png" />
+	          <img class="img3" alt="alt img3" src="http://internal.polarisind.com/hr/Safe/mont/Ambiental/oie_png%20(10).png" />
+	     </figure>
+	</div>
+	
+  </div> 
+
+ <div id="izquierda" style="filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#004B80', startColorstr='#6693B3, gradientType='0');">
+
+
+ <div id="me">
+<ul>
+  <li class="nivel1 primera"><a href="#" class="nivel1"><img src='http://internal.polarisind.com/hr/Safe/mont/Ambiental/oie_jpg.png' alt='EHS' width="125" height="100"  align="left"><span class="ehs"> <font color="green">E</font><font color="red">H</font><font color="blue">S</font></span><br>En POLARIS Monterrey estamos comprometidos
+con el Cuidado y Preservación del Medio Ambiente.</a>
+
+	<ul>
+		<li class="primera"><a href="http://internal.polarisind.com/hr/Safe/mont/Documents/Forms/AllItems.aspx">Documentos</a></li>
+		
+	</ul>
+
+  </li>
+  <li class="nivel1"><a href="#" class="nivel1"><img src='http://internal.polarisind.com/hr/Safe/mont/Ambiental/oie_png%20(7).png' width="75" height="100"  align="left"><span class="se">SEGURIDAD </span><br>Asegurarnos que cada empleado
+es formado adecuadamente para 
+desarrollar su trabajo 
+de forma segura.<br><br></a>
+	<ul>
+		<li class="primera"><a href="http://internal.polarisind.com/hr/Safe/mont/Alertas%20de%20Seguridad/Forms/AllItems.aspx">Alertas de Seguridad</a></li>
+		<li><a href="http://internal.polarisind.com/hr/Safe/mont/Safety%20daily%20report/Forms/AllItems.aspx">Reporte Diario</a></li>
+		
+	</ul>
+
+</li>
+  <li class="nivel1"><a href="#" class="nivel1"><img src='http://internal.polarisind.com/hr/Safe/mont/Ambiental/oie_png%20(77).png'  width="75" height="100"  align="left"><span class="sa">SALUD </span><br>Bienestar físico, mental y 
+social, prevenir y tratar
+enfermedades con empatia
+hacia el paciente.<br><br><br></a>
+
+	<ul>
+	         <li class="primera"><a href="http://internal.polarisind.com/hr/Safe/mont/Cruz%20de%20Seguridad%20%20Safety%20Cross/Forms/AllItems.aspx">Cruz de Salud</a></li>
+		
+		
+	</ul>
+
+</li>
+<li class="nivel1">
+<a href="#" class="nivel1">
+<img src='http://internal.polarisind.com/hr/Safe/mont/Ambiental/oie_png%20(5).png'
+ width="75" height="100" align="left"><span class="ma">MEDIO AMBIENTE </span><br>Llevar a cabo iniciativas 
+para reducir nuestra huella
+ambiental de una manera
+progresiva. <br><br><br> </a>
+	<ul>
+		<li class="primera"><a href="http://internal.polarisind.com/hr/Safe/mont/Envionmental/Forms/AllItems.aspx">Environmental</a></li>
+		<li><a href="http://internal.polarisind.com/hr/Safe/mont/MSDS%20%20Quimicos/Forms/AllItems.aspx">MSDS Quimicos</a></li>
+	
+	</ul>
+
+</li>
+</ul>
+
+</div>
+
+
+  </div> 
+
+<div id="central" style="filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#004B80', startColorstr='#6693B3', gradientType='0');">
+
+<font color="white" size="+1";">
+<center><p id="salInicial"></p> 
+<a href='http://internal.polarisind.com/hr/Safe/mont/Cruz de Seguridad  Safety Cross/Safety Record  2014.xls' title="Documento Completo aqui">
+<p id="DSAcc" style="font-family: Lucida Console, Monaco, monospace; color: green; font-size: 250%; padding: 2px 0px" ></p>
+</a>
+dias sin accidentes
+
+</center>
+<font size="3" color="orange"><p align="right" id="rec" ></p>
+</font>
+<marquee width="450" height="40" style="font-size: 16px; color: #ffff00">
+<p id="mensDia">
+</p>
+</marquee>
+
+<script>
+//contador de dias sin accidentes
+
+meses=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+
+diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+
+
+function countup(yr,m,d){
+today=new Date()
+todayy=today.getYear()
+todaym=today.getMonth()
+todayd=today.getDate()
+todaystring=meses[todaym]+" "+todayd+", "+todayy
+paststring=meses[m-1]+" "+(d+1)+", "+yr
+dif=(Math.round((Date.parse(todaystring)-Date.parse(paststring))/(24*60*60*1000))*1)
+return dif;
+}
+//poner aqui la fecha del accidente en el formato año/mes/dia 
+
+document.getElementById("DSAcc").innerHTML = countup(2014,12,21);
+
+//cambiar mensaje de acuerdo al dia de la semana
+function mens(){
+
+if(diasSemana[today.getDay()]=="Lunes"){
+mensaje="“La Seguridad comienza con el trabajo en equipo.”";}
+else if(diasSemana[today.getDay()]=="Martes"){
+mensaje="“Los records de Seguridad no suceden por accidente.”";}
+else if(diasSemana[today.getDay()]=="Miércoles"){
+mensaje=("La Seguridad puede distinguirte. La falta de Seguridad puede extinguirte");}
+else if(diasSemana[today.getDay()]=="Jueves"){
+mensaje="“El mejor dispositivo de seguridad es un trabajador seguro.”";}
+else if(diasSemana[today.getDay()]=="Viernes"){
+mensaje="“Accidentes grandes o chicos, Evitalos Todos.”";}
+else if(diasSemana[f.getDay()]=="Sábado"){
+mensaje="“No dejes los hábitos seguros en el trabajo, llévalos a casa.”";}
+else if(diasSemana[today.getDay()]=="Domingo"){
+mensaje="“Que es lo que vale la pena? – Seguridad Primero.”";}
+
+return mensaje;
+}
+document.getElementById("mensDia").innerHTML = mens();
+
+function saludo(){
+if(dif>5)
+saludo="Gracias a ti llevamos"
+else
+saludo="Llevamos"
+return saludo;
+}
+document.getElementById("salInicial").innerHTML = saludo();
+
+function record() {
+
+nuevoRec=352
+if((nuevoRec-dif)>=(-1)){
+if((nuevoRec-dif)>10)
+record="Record a romper "+nuevoRec+" dias";
+if((nuevoRec-dif)<=10)
+record="Faltan "+(nuevoRec-dif)+" Dias para romper el record";
+if((nuevoRec-dif)==0)
+record="Ya igualamos el record";
+if((nuevoRec-dif)==(-1))
+record="FELICIDADES !!! Rompimos el record";
+}
+else
+record="Record a romper "+dif+" diass";
+return record;
+}
+document.getElementById("rec").innerHTML = record();
+</script>
+
+<div id="menu">
+<ul>
+<li class="nivel1"><a id="anual" href="#" class="nivel1">ANUAL<br><br></a>
+
+	
+
+</li>
+  <li class="nivel1"><a id="sem1" href="#" class="nivel1">Primer Semestre</a>
+
+	<ul>
+<li id="ene"><a href="#">ENERO</a></li>
+<li id="feb"><a href="#">FEBRERO</a></li>
+<li id="mar"><a href="#">MARZO</a></li>
+<li id="abr"><a href="#">ABRIL</a></li>
+<li id="may"><a href="#">MAYO</a></li>
+<li id="jun"><a href="#">JUNIO</a></li>
+		
+	</ul>
+
+  </li>
+  <li class="nivel1"><a id="sem2" href="#" class="nivel1">Segundo Semestre</a>
+
+	<ul>
+<li id="jul"><a href="#">JULIO</a></li>
+<li id="ago"><a href="#">AGOSTO</a></li>
+<li id="sep"><a href="#">SEPTIEMBRE</a></li>
+<li id="oct"><a href="#">OCTUBRE</a></li>
+<li id="nov"><a href="#">NOVIEMBRE</a></li>
+<li id="dic"><a href="#">DICIEMBRE</a></li>
+	</ul>
+
+</li>
+ 
+
+
+</ul>
+</div>
+<script>document.getElementById("anual").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/ANUAL.png";}
+document.getElementById("sem1").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/ANUAL.png";}
+document.getElementById("sem2").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/ANUAL.png";}
+document.getElementById("ene").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/ENERO.png";}
+document.getElementById("feb").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/FEBRERO.png";}
+document.getElementById("mar").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/MARZO.png";}
+document.getElementById("abr").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/ABRIL.png";}
+document.getElementById("may").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/MAYO.png";}
+document.getElementById("jun").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/JUNIO.png";}
+document.getElementById("jul").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/JULIO.png";}
+document.getElementById("ago").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/AGOSTO.png";}
+document.getElementById("sep").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/SEPTIEMBRE.png";}
+document.getElementById("oct").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/OCTUBRE.png";}
+document.getElementById("nov").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/NOVIEMBRE.png";}
+document.getElementById("dic").onclick=function(){
+document.getElementById("ima").src = "http://internal.polarisind.com/hr/Safe/mont/Ambiental/DICIEMBRE.png";}
+</script>
+
+<br>
+<img id="ima" src="http://internal.polarisind.com/hr/Safe/mont/Ambiental/ANUAL.png" >
+
+  </div>
+
+
+
+<div id="derecha" style="filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#004B80', startColorstr='#6693B3, gradientType='0');">
+<div id="politicas">
+<div id="menu1">
+<ul>
+  <li class="nivel1"><a class="nivel1">POLITICA</a>
+
+	<ul class="politica">
+		<li style="width:320px;font-size:14px;opacity: 0.5; filter: alpha(opacity=50);"> <a href="#"><br><i><b>En POLARIS Monterrey estamos comprometidos
+con el Cuidado y Preservación del Medio Ambiente,
+la Salud y la Seguridad, establecemos Objetivos
+y Metas para Prevenir la Contaminación y promover
+la Mejora Continua de nuestro desempeño en EHS
+y asegurar el Cumplimiento con la Legislación aplicable,
+políticas corporativas y otros compromisos
+adquiridos por la empresa.</i></b> <br>
+</a></li>
+
+	</ul>
+
+  </li>
+  <li class="nivel1"><a class="nivel1">MISION</a>
+
+<ul class="mision">
+		<li style="width:320px;font-size:14px;opacity: 0.5; filter: alpha(opacity=50);"> <a href="#"><br><b><i>Fabricar nuestros productos
+preservando los sistemas naturales 
+y disminuyendo nuestra huella ambiental.</i></b> <br><br></a></li>
+		
+	</ul>
+</li>
+  <li class="nivel1"><a class="nivel1">VISION</a>
+
+	<ul class="vision">
+		<li style="width:320px;font-size:14px; opacity: 0.5; filter: alpha(opacity=50);"><a href="#"><br><b>Impactar positivamente nuestro medio ambiente.</b><br><br><br></a></li>
+		
+	</ul>
+</li>
+</ul>
+</div>
+<br><br><br><br><br><br><br> <br><br><br><br>
+</div>
+<div id="orga">
+
+<ul>
+  <li class="nivel1"><a id="sem1" href="http://mysites.polarisind.com/Person.aspx?accountname=polarisind%5Crpena2" class="nivel1"><img src='http://internal.polarisind.com/hr/Safe/mont/Ambiental/Raúl%20Peña.png'><br>Raúl <br>Peña</a>
+
+	<ul class="uno">
+<li id="ene"><a href="http://mysites.polarisind.com/Person.aspx?accountname=polarisind%5Crpena2">El ingeniero <b>Raúl Peña</b> Es nuestro gerente del Departamento de EHS, se encarga del manejo del Departamento y de llevar a cabo la planeacion para la mejora del mismo</a></li>
+
+		
+	</ul>
+
+  </li>
+  <li class="nivel1"><a id="sem2" href="http://internal.polarisind.com/hr/Safe/mont/SiteAssets/Organigrama_EHS_Monterrey.aspx?PageView=Shared&InitialTabId=Ribbon.WebPartPage&VisibilityContext=WSSWebPartPage" class="nivel1"><img src='http://internal.polarisind.com/hr/Safe/mont/Ambiental/Jesús%20Cortéz.png'><br>Jesús Cortéz</a>
+
+	<ul class="dos">
+<li id="jul"><a href="http://internal.polarisind.com/hr/Safe/mont/SiteAssets/Organigrama_EHS_Monterrey.aspx?PageView=Shared&InitialTabId=Ribbon.WebPartPage&VisibilityContext=WSSWebPartPage">El Doctor <b>Jesús Cortéz</b>
+
+Es el encargado de nuestro departamento de Salud, provee los medios para mantener nuestra integridad fisica en caso de algun accidente y tambien nos ayuda a mantenernos sanos previniendo enfermedades</a></li>
+
+	</ul>
+
+</li>
+<li class="nivel1"><a id="anual" href="http://mysites.polarisind.com/Person.aspx?accountname=polarisind%5Cagarcia1" class="nivel1"><img src='http://internal.polarisind.com/hr/Safe/mont/Ambiental/Armando%20Garcia.png'><br>Armando Garcia</a>
+        <ul class="tres">
+<li id="jul"><a href="http://mysites.polarisind.com/Person.aspx?accountname=polarisind%5Cagarcia1">El ingeniero <b>Armando Garcia</b>
+
+Coordinador del Departamento de Medio Ambiente nos ayuda a mantener nuestro impacto ambiental en los niveles minimos a traves de programas para reducir nuestras emisiones de CO2</a></li>
+
+	</ul>
+</li>
+<li class="nivel1"><a id="anual" href="http://mysites.polarisind.com/Person.aspx?accountname=polarisind%5Cjlopez2" class="nivel1"><img src='http://internal.polarisind.com/hr/Safe/mont/Ambiental/Jonathan%20López.png'><br>Jonathan López</a>
+       <ul class="cuatro">
+<li id="jul"><a href="http://mysites.polarisind.com/Person.aspx?accountname=polarisind%5Cjlopez2">El ingeniero <b>Jonathan López</b>
+
+Es el coordinador del departmento de seguridad, se encarga de nuestra seguridad y de poner en practica medidas de prevención</a></li>
+
+	</ul>
+</li>
+</ul>
+
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+<a href="http://internal.polarisind.com/hr/Safe/mont/SiteAssets/Organigrama_EHS_Monterrey.aspx?PageView=Shared&InitialTabId=Ribbon.WebPartPage&VisibilityContext=WSSWebPartPage"><center>ORGANIGRAMA COMPLETO</center></a>
+</div>
+
+<div id="pie" style="filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#004B80', startColorstr='#6693B3, gradientType='0');">
+
+<div id="sitios">Sitios de interés<br>
+
+<a href="http://www.cna.gob.mx/" title="ir a CONAGUA">
+<img src="http://internal.polarisind.com/hr/Safe/mont/Ambiental/enlace%20conagua.png">
+</a>
+<a href="http://www.profepa.gob.mx/" title="ir a PROFEPA">
+<img src="http://internal.polarisind.com/hr/Safe/mont/Ambiental/enlace%20profepa.png">
+</a>
+<a href="http://www.semarnat.gob.mx/" title="ir a SEMARNAT">
+<img src="http://internal.polarisind.com/hr/Safe/mont/Ambiental/enlace%20semarnat.png">
+</a>
+<a href="http://portal.salud.gob.mx/" title="ir a SALUD">
+<img src="http://internal.polarisind.com/hr/Safe/mont/Ambiental/enlace%20secretaria%20salud.png">
+</a>
+
+
+
+ </div>
+
+<div id="suger">Sugerencias<br>
+<a href="http://internal.polarisind.com/hr/Safe/mont/suggestions/default.aspx">
+<img src='http://internal.polarisind.com/hr/Safe/mont/Ambiental/Sugerencias.png'>
+</a>
+
+
+</div>
+  </div> 
+
+</div>
+© 2015 Microsoft Términos Privacidad y cookies Desarrolladores Español
+
+    
